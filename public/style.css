@@ -21,6 +21,20 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     color: #333;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #0078D7;
+    color: white;
+}
+
+nav a.active {
+    background-color: #0078D7;
+    color: white;
+    font-weight: bold;
 }
 
 main {
