@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quick Access Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .link-container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        .link-container a img {
+            width: 150px;
+            height: auto;
+            transition: transform 0.2s;
+        }
+        .link-container a img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Quick Access</h1>
+    <div class="link-container">
+        <a href="https://www.office.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Microsoft_Office_Logo_%282019–present%29.svg" alt="Microsoft Office">
+        </a>
+    </div>
+    <div class="link-container">
+        <a href="https://portal.azure.com" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Microsoft_Azure_Logo.svg" alt="Microsoft Azure">
+        </a>
+    </div>
+</body>
+</html>
